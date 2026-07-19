@@ -2,11 +2,12 @@
 
 [English](COMPARISON.md)
 
-本表用于快速索引，不代表项目排名。界面、平台和许可证信息于 2026-07-15
-对照上游仓库检查。功能变化很快，采用前请以各项目最新文档为准。
+本表用于快速索引，不代表项目排名。已有条目于 2026-07-15 对照上游仓库检查；
+BrainPilot 于 2026-07-19 添加并检查。功能变化很快，采用前请以各项目最新文档为准。
 
 | 项目 | 主要界面 | 运行时或模型策略 | 主要特点 | 许可证 |
 | --- | --- | --- | --- | --- |
+| [BrainPilot](https://github.com/NeuroAIHub/BrainPilot) | 浏览器工作台、CLI | Pi SDK；Anthropic、OpenAI 兼容和 Azure Provider | 脑科学、专项 Agent 与 Graph of Trace | AGPL-3.0 |
 | [DeepScience](https://github.com/huang-sh/DeepScience) | Web、CLI | 多 Provider Pi Agent 运行时 | 领域 Agent、项目/会话隔离、科学产物 | MIT |
 | [InternAgentS](https://github.com/qzzqzzb/OpenClaudeScience) | Web | DeepAgents + LangGraph；云模型、私有网关或本地模型 | 远程计算审批与科学文件工作流 | MIT |
 | [Open Science](https://github.com/aipoch/open-science) | Electron 桌面端 | Claude Code 登录或自定义模型网关 | 早期 Alpha：Notebook、Artifact、Skill 和生命科学连接器 | Apache-2.0 |

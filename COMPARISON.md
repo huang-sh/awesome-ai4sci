@@ -2,12 +2,14 @@
 
 [简体中文](COMPARISON.zh-CN.md)
 
-This matrix is a compact index, not a ranking. Interface, platform, and license
-information was checked against the upstream repositories on 2026-07-15.
-Features can change quickly; verify details upstream before adopting a project.
+This matrix is a compact index, not a ranking. Existing entries were checked
+against their upstream repositories on 2026-07-15; BrainPilot was added and
+checked on 2026-07-19. Features can change quickly, so verify details upstream
+before adopting a project.
 
 | Project | Primary surface | Runtime or model strategy | Notable focus | License |
 | --- | --- | --- | --- | --- |
+| [BrainPilot](https://github.com/NeuroAIHub/BrainPilot) | Browser workspace, CLI | Pi SDK; Anthropic, OpenAI-compatible, and Azure providers | Brain science, specialist agents, and Graph of Trace | AGPL-3.0 |
 | [DeepScience](https://github.com/huang-sh/DeepScience) | Web, CLI | Multi-provider Pi Agent runtime | Domain agents, project/session isolation, scientific artifacts | MIT |
 | [InternAgentS](https://github.com/qzzqzzb/OpenClaudeScience) | Web | DeepAgents and LangGraph; cloud, gateway, or local models | Remote compute approvals and scientific file workflows | MIT |
 | [Open Science](https://github.com/aipoch/open-science) | Electron desktop | Claude Code login or custom model gateway | Early-alpha notebooks, artifacts, skills, and life-science connectors | Apache-2.0 |

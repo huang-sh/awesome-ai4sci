@@ -28,6 +28,8 @@
 
 ## 端到端科研工作台
 
+- **[BrainPilot](https://github.com/NeuroAIHub/BrainPilot)** — 面向脑科学的人在回路多智能体科研工作台。PI Agent 协调 librarian、experimentalist、engineer、writer 和 auditor，覆盖文献调研、研究设计、数据分析、写作与科学主张审计，并通过 Graph of Trace 保留可检查的研究过程。`TypeScript` `AGPL-3.0`
+
 - **[DeepScience](https://github.com/huang-sh/DeepScience)** — 基于 Pi Agent 运行时的本地科学智能体，提供 Biology、Research、Physics、Machine Learning 四类 Agent、按需科学资源与 MCP Connector、隔离的项目/会话 Workspace、Artifact 预览以及 Web/终端界面。`Python` `TypeScript` `MIT`
 
 - **[InternAgentS](https://github.com/qzzqzzb/OpenClaudeScience)** — 基于 DeepAgents 与 LangGraph 的本地优先科研工作台，整合科学文件预览、可复用 Skill、MCP/SCP Connector、可配置模型后端和需要人工审批的 Linux SSH 计算。`Python` `TypeScript` `MIT`
