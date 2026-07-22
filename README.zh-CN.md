@@ -18,7 +18,7 @@
 
 - [项目索引](#项目索引)
 - [端到端科研工作台](#端到端科研工作台)
-- [平台与工程专项项目](#平台与工程专项项目)
+- [领域、平台与工程专项项目](#领域平台与工程专项项目)
 - [Claude Science 兼容与模型路由](#claude-science-兼容与模型路由)
 
 ## 项目索引
@@ -46,9 +46,11 @@
 
 - **[Wisp Science](https://github.com/xuzhougeng/wisp-science)** — Rust 优先的本地桌面科研助手与 Headless CLI，支持 OpenAI 兼容和 Anthropic 模型、ACP Agent、持久 Python/R REPL、可复用 `SKILL.md` 工作流、加密项目同步和生物数据库 MCP。`Rust` `Apache-2.0`
 
-## 平台与工程专项项目
+## 领域、平台与工程专项项目
 
 - **[Claude Science for Windows](https://github.com/JWM0203/Claude-Science-for-win)** — 面向 Windows 的 Claude Code 科研编排套件，包含 Coordinator、Specialist、Reviewer Agent、公开科学数据库 Connector、Python 环境和基于哈希的溯源记录。检查时仓库未提供许可证文件。`Python` `未提供许可证文件`
+
+- **[Motif](https://github.com/jvogan/motif)** — 面向 Claude Science 的 AI 原生分子生物学工作台，提供本地 MCP App、插件、Skill 与自包含 HTML Workspace，用于编辑 DNA、RNA 和蛋白质记录，并审阅序列图谱、酶切、引物/PCR、组装流程、比对、Sanger 峰图、ORF 和 CRISPR guide 候选。`TypeScript` `MIT`
 
 - **[Open Engineer](https://github.com/svd-ai-lab/open-engineer)** — 基于 OpenCode 的 Windows x64 工程工作台，在科学文献和文档工作流之外，还提供 COMSOL、Abaqus、Ansys、MATLAB 等 CAE/CAD 与仿真软件的 Skill。`TypeScript` `MIT`
 

@@ -4,8 +4,8 @@
 
 This matrix is a compact index, not a ranking. Existing entries were checked
 against their upstream repositories on 2026-07-15; BrainPilot was added and
-checked on 2026-07-19. Features can change quickly, so verify details upstream
-before adopting a project.
+checked on 2026-07-19, and Motif on 2026-07-22. Features can change quickly, so
+verify details upstream before adopting a project.
 
 | Project | Primary surface | Runtime or model strategy | Notable focus | License |
 | --- | --- | --- | --- | --- |
@@ -18,8 +18,9 @@ before adopting a project.
 | [OpenScience](https://github.com/synthetic-sciences/openscience) | Browser workspace, CLI | Multi-provider and open-weight models | Full research loop, large skill library, scientific databases | Apache-2.0 |
 | [Runcell Science](https://github.com/runcell-ai/runcell-science) | Web, Electron desktop | Codex, Claude Code, and Grok runtimes | Interactive artifacts, notebooks, and worktree diffs | Apache-2.0 |
 | [Wisp Science](https://github.com/xuzhougeng/wisp-science) | Tauri desktop, CLI | OpenAI-compatible, Anthropic, and ACP agents | Rust stack, persistent Python/R, biological database MCPs | Apache-2.0 |
-| [Open Engineer](https://github.com/svd-ai-lab/open-engineer) | Windows desktop | OpenCode providers | Engineering, CAE/CAD, simulation, and science skills | MIT |
 | [Claude Science for Windows](https://github.com/JWM0203/Claude-Science-for-win) | Windows CLI | Claude Code orchestration | Coordinator/reviewer agents, connectors, and provenance | No license file |
+| [Motif](https://github.com/jvogan/motif) | Claude Science MCP App, standalone HTML | Local connector; no hosted backend | Molecular sequence editing and analysis | MIT |
+| [Open Engineer](https://github.com/svd-ai-lab/open-engineer) | Windows desktop | OpenCode providers | Engineering, CAE/CAD, simulation, and science skills | MIT |
 | [CSSwitch](https://github.com/SuperJJ007/CSSwitch) | macOS menu-bar app | Local Anthropic/OpenAI protocol gateway | Routes Claude Science to third-party model APIs | MIT |
 | [CSSwitch Linux](https://github.com/YuntaoOvO/CSSwitch-Linux) | Linux/WSL CLI and Tauri GUI | Local protocol gateway and sandbox | Native Linux/WSL port of the CSSwitch workflow | MIT |
 

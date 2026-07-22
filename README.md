@@ -18,7 +18,7 @@ English · [简体中文](README.zh-CN.md)
 
 - [Project index](#project-index)
 - [End-to-end research workbenches](#end-to-end-research-workbenches)
-- [Platform and engineering-focused projects](#platform-and-engineering-focused-projects)
+- [Domain, platform, and engineering-focused projects](#domain-platform-and-engineering-focused-projects)
 - [Claude Science compatibility and model routing](#claude-science-compatibility-and-model-routing)
 
 ## Project index
@@ -47,9 +47,11 @@ interfaces, runtimes, focus areas, and licenses, see the
 
 - [Wisp Science](https://github.com/xuzhougeng/wisp-science) - A Rust-first, local desktop copilot and headless CLI. It supports OpenAI-compatible and Anthropic models, ACP agents, persistent Python/R REPLs, reusable `SKILL.md` workflows, encrypted project sync, and bundled MCP access to biological databases. `Rust` `Apache-2.0`.
 
-## Platform and engineering-focused projects
+## Domain, platform, and engineering-focused projects
 
 - [Claude Science for Windows](https://github.com/JWM0203/Claude-Science-for-win) - A Windows-oriented Claude Code orchestration kit with coordinator, specialist, and reviewer agents; public scientific database connectors; Python environments; and hash-based provenance records. The repository did not contain a license file when checked. `Python` `No license file`.
+
+- [Motif](https://github.com/jvogan/motif) - An AI-native molecular biology workbench for Claude Science. It packages a local MCP App, plugin, skill, and self-contained HTML workspace for editing DNA, RNA, and protein records and reviewing maps, digests, primers/PCR, assembly workflows, alignments, Sanger traces, ORFs, and CRISPR guide candidates. `TypeScript` `MIT`.
 
 - [Open Engineer](https://github.com/svd-ai-lab/open-engineer) - A Windows x64 engineering workbench based on OpenCode. It packages scientific literature and document workflows alongside skills for CAE/CAD and simulation tools such as COMSOL, Abaqus, Ansys, MATLAB, and others. `TypeScript` `MIT`.
 

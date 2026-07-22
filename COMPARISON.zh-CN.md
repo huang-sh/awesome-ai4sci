@@ -3,7 +3,8 @@
 [English](COMPARISON.md)
 
 本表用于快速索引，不代表项目排名。已有条目于 2026-07-15 对照上游仓库检查；
-BrainPilot 于 2026-07-19 添加并检查。功能变化很快，采用前请以各项目最新文档为准。
+BrainPilot 于 2026-07-19 添加并检查，Motif 于 2026-07-22 添加并检查。功能变化
+很快，采用前请以各项目最新文档为准。
 
 | 项目 | 主要界面 | 运行时或模型策略 | 主要特点 | 许可证 |
 | --- | --- | --- | --- | --- |
@@ -16,8 +17,9 @@ BrainPilot 于 2026-07-19 添加并检查。功能变化很快，采用前请以
 | [OpenScience](https://github.com/synthetic-sciences/openscience) | 浏览器工作台、CLI | 多 Provider 与开源权重模型 | 完整科研闭环、大型 Skill 库、科学数据库 | Apache-2.0 |
 | [Runcell Science](https://github.com/runcell-ai/runcell-science) | Web、Electron 桌面端 | Codex、Claude Code、Grok 运行时 | 交互式 Artifact、Notebook 与 Worktree Diff | Apache-2.0 |
 | [Wisp Science](https://github.com/xuzhougeng/wisp-science) | Tauri 桌面端、CLI | OpenAI 兼容、Anthropic 与 ACP Agent | Rust 技术栈、持久 Python/R、生物数据库 MCP | Apache-2.0 |
-| [Open Engineer](https://github.com/svd-ai-lab/open-engineer) | Windows 桌面端 | OpenCode Providers | 工程、CAE/CAD、仿真与科学 Skill | MIT |
 | [Claude Science for Windows](https://github.com/JWM0203/Claude-Science-for-win) | Windows CLI | Claude Code 编排 | Coordinator/Reviewer Agent、连接器与溯源 | 未提供许可证文件 |
+| [Motif](https://github.com/jvogan/motif) | Claude Science MCP App、自包含 HTML | 本地 Connector；无托管后端 | 分子序列编辑与分析 | MIT |
+| [Open Engineer](https://github.com/svd-ai-lab/open-engineer) | Windows 桌面端 | OpenCode Providers | 工程、CAE/CAD、仿真与科学 Skill | MIT |
 | [CSSwitch](https://github.com/SuperJJ007/CSSwitch) | macOS 菜单栏应用 | 本地 Anthropic/OpenAI 协议网关 | 将 Claude Science 路由到第三方模型 API | MIT |
 | [CSSwitch Linux](https://github.com/YuntaoOvO/CSSwitch-Linux) | Linux/WSL CLI、Tauri GUI | 本地协议网关与隔离环境 | CSSwitch 工作流的原生 Linux/WSL 移植 | MIT |
 
