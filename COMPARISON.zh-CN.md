@@ -20,6 +20,7 @@ BrainPilot 于 2026-07-19 添加并检查，Motif 于 2026-07-22 添加并检查
 | [Claude Science for Windows](https://github.com/JWM0203/Claude-Science-for-win) | Windows CLI | Claude Code 编排 | Coordinator/Reviewer Agent、连接器与溯源 | 未提供许可证文件 |
 | [Motif](https://github.com/jvogan/motif) | Claude Science MCP App、自包含 HTML | 本地 Connector；无托管后端 | 分子序列编辑与分析 | MIT |
 | [Open Engineer](https://github.com/svd-ai-lab/open-engineer) | Windows 桌面端 | OpenCode Providers | 工程、CAE/CAD、仿真与科学 Skill | MIT |
+| [ScholarCopilot](https://github.com/TIGER-AI-Lab/ScholarCopilot) | Gradio Web 应用 | ScholarCopilot Checkpoint + HNSW 索引的 arXiv 语料库 | 学术文本续写与引用检索 | MIT |
 | [CSSwitch](https://github.com/SuperJJ007/CSSwitch) | macOS 菜单栏应用 | 本地 Anthropic/OpenAI 协议网关 | 将 Claude Science 路由到第三方模型 API | MIT |
 | [CSSwitch Linux](https://github.com/YuntaoOvO/CSSwitch-Linux) | Linux/WSL CLI、Tauri GUI | 本地协议网关与隔离环境 | CSSwitch 工作流的原生 Linux/WSL 移植 | MIT |
 

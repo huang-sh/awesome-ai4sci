@@ -54,6 +54,8 @@
 
 - **[Open Engineer](https://github.com/svd-ai-lab/open-engineer)** — 基于 OpenCode 的 Windows x64 工程工作台，在科学文献和文档工作流之外，还提供 COMSOL、Abaqus、Ansys、MATLAB 等 CAE/CAD 与仿真软件的 Skill。`TypeScript` `MIT`
 
+- **[ScholarCopilot](https://github.com/TIGER-AI-Lab/ScholarCopilot)** — 基于 Gradio 的学术写作助手，通过统一的生成与检索模型提供上下文相关的文本续写，并从 arXiv 语料库检索引用建议。仓库提供本地 Demo 配置和语料索引工具。`Python` `MIT`
+
 ## Claude Science 兼容与模型路由
 
 以下工具用于扩展或路由已有 Claude Science 安装，本身不是独立科研工作台。

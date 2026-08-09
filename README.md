@@ -55,6 +55,8 @@ interfaces, runtimes, focus areas, and licenses, see the
 
 - [Open Engineer](https://github.com/svd-ai-lab/open-engineer) - A Windows x64 engineering workbench based on OpenCode. It packages scientific literature and document workflows alongside skills for CAE/CAD and simulation tools such as COMSOL, Abaqus, Ansys, MATLAB, and others. `TypeScript` `MIT`.
 
+- [ScholarCopilot](https://github.com/TIGER-AI-Lab/ScholarCopilot) - A Gradio-based academic writing assistant that provides context-aware text completion and retrieves citation suggestions from an arXiv corpus through a unified generation and retrieval model. The repository includes local demo setup and corpus-indexing utilities. `Python` `MIT`.
+
 ## Claude Science compatibility and model routing
 
 These tools extend or reroute an existing Claude Science installation; they are not standalone research workbenches.
