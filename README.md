@@ -2,7 +2,7 @@
 
 # Awesome AI for Science
 
-A curated collection of open-source AI agents, research workbenches, and tooling for scientific discovery.
+A curated collection of AI agents, research workbenches, and tooling for scientific discovery.
 
 [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
 ![License: CC0-1.0](https://img.shields.io/badge/license-CC0--1.0-lightgrey.svg)
@@ -19,6 +19,7 @@ English · [简体中文](README.zh-CN.md)
 - [Project index](#project-index)
 - [End-to-end research workbenches](#end-to-end-research-workbenches)
 - [Domain, platform, and engineering-focused projects](#domain-platform-and-engineering-focused-projects)
+- [Commercial research agent platforms](#commercial-research-agent-platforms)
 - [Claude Science compatibility and model routing](#claude-science-compatibility-and-model-routing)
 
 ## Project index
@@ -56,6 +57,20 @@ interfaces, runtimes, focus areas, and licenses, see the
 - [Open Engineer](https://github.com/svd-ai-lab/open-engineer) - A Windows x64 engineering workbench based on OpenCode. It packages scientific literature and document workflows alongside skills for CAE/CAD and simulation tools such as COMSOL, Abaqus, Ansys, MATLAB, and others. `TypeScript` `MIT`.
 
 - [ScholarCopilot](https://github.com/TIGER-AI-Lab/ScholarCopilot) - A Gradio-based academic writing assistant that provides context-aware text completion and retrieves citation suggestions from an arXiv corpus through a unified generation and retrieval model. The repository includes local demo setup and corpus-indexing utilities. `Python` `MIT`.
+
+## Commercial research agent platforms
+
+These hosted products are listed separately from the open-source projects and are not included in the comparison matrix.
+
+- [SciSpace](https://scispace.com/) - A research agent for searching papers, reviewing literature, chatting with PDFs, and drafting research outputs such as text, diagrams, and presentations.
+
+- [ScienceOne](https://www.scienceone.ai/portal/) - An AI-for-science platform spanning multi-agent research, scientific computing and tool orchestration, literature and database access, experiment support, and research deliverables.
+
+- [Biomni Lab](https://biomni.phylo.bio/) - A cloud research assistant for biomedical and life-science work that can plan and execute bioinformatics analyses using specialized tools, databases, and compute resources.
+
+- [omicOS](https://omicos.cn/omicos) - A multi-agent workspace for single-cell and spatial omics analysis that turns natural-language requests into executable workflows using tools such as OmicVerse and Scanpy.
+
+- [PromptBio](https://www.promptbio.ai/) - A conversational life-science platform for orchestrating bioinformatics data management, processing, analysis, automated machine learning, and biomarker discovery.
 
 ## Claude Science compatibility and model routing
 
