@@ -21,6 +21,7 @@ verify details upstream before adopting a project.
 | [Claude Science for Windows](https://github.com/JWM0203/Claude-Science-for-win) | Windows CLI | Claude Code orchestration | Coordinator/reviewer agents, connectors, and provenance | No license file |
 | [Motif](https://github.com/jvogan/motif) | Claude Science MCP App, standalone HTML | Local connector; no hosted backend | Molecular sequence editing and analysis | MIT |
 | [Open Engineer](https://github.com/svd-ai-lab/open-engineer) | Windows desktop | OpenCode providers | Engineering, CAE/CAD, simulation, and science skills | MIT |
+| [ScholarCopilot](https://github.com/TIGER-AI-Lab/ScholarCopilot) | Gradio web app | ScholarCopilot checkpoint with an HNSW-indexed arXiv corpus | Academic text completion and citation retrieval | MIT |
 | [CSSwitch](https://github.com/SuperJJ007/CSSwitch) | macOS menu-bar app | Local Anthropic/OpenAI protocol gateway | Routes Claude Science to third-party model APIs | MIT |
 | [CSSwitch Linux](https://github.com/YuntaoOvO/CSSwitch-Linux) | Linux/WSL CLI and Tauri GUI | Local protocol gateway and sandbox | Native Linux/WSL port of the CSSwitch workflow | MIT |
 
