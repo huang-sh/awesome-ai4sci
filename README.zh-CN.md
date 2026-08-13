@@ -2,7 +2,7 @@
 
 # Awesome AI for Science
 
-精选的开源科学智能体、科研工作台与 AI for Science 工具集合。
+精选的科学智能体、科研工作台与 AI for Science 工具集合。
 
 [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
 ![License: CC0-1.0](https://img.shields.io/badge/license-CC0--1.0-lightgrey.svg)
@@ -19,6 +19,7 @@
 - [项目索引](#项目索引)
 - [端到端科研工作台](#端到端科研工作台)
 - [领域、平台与工程专项项目](#领域平台与工程专项项目)
+- [商业化科研 Agent 平台](#商业化科研-agent-平台)
 - [Claude Science 兼容与模型路由](#claude-science-兼容与模型路由)
 
 ## 项目索引
@@ -53,6 +54,20 @@
 - **[Motif](https://github.com/jvogan/motif)** — 面向 Claude Science 的 AI 原生分子生物学工作台，提供本地 MCP App、插件、Skill 与自包含 HTML Workspace，用于编辑 DNA、RNA 和蛋白质记录，并审阅序列图谱、酶切、引物/PCR、组装流程、比对、Sanger 峰图、ORF 和 CRISPR guide 候选。`TypeScript` `MIT`
 
 - **[Open Engineer](https://github.com/svd-ai-lab/open-engineer)** — 基于 OpenCode 的 Windows x64 工程工作台，在科学文献和文档工作流之外，还提供 COMSOL、Abaqus、Ansys、MATLAB 等 CAE/CAD 与仿真软件的 Skill。`TypeScript` `MIT`
+
+## 商业化科研 Agent 平台
+
+以下托管产品与开源项目分开列出，不纳入对比矩阵。
+
+- **[SciSpace](https://scispace.com/)** — 支持论文检索、文献综述、PDF 对话，以及研究文本、示意图和演示文稿生成的科研 Agent。
+
+- **[ScienceOne](https://www.scienceone.ai/portal/)** — 覆盖多智能体深度研究、科学计算与工具编排、文献和数据库访问、实验辅助及科研成果产出的一站式 AI for Science 平台。
+
+- **[Biomni Lab](https://biomni.phylo.bio/)** — 面向生物医学与生命科学的云端科研助手，可调用专业工具、数据库和计算资源规划并执行生物信息学分析。
+
+- **[omicOS](https://omicos.cn/omicos)** — 面向单细胞与空间组学分析的多智能体工作台，可将自然语言需求转化为基于 OmicVerse、Scanpy 等工具的可执行流程。
+
+- **[PromptBio](https://www.promptbio.ai/)** — 面向生命科学的对话式平台，用于编排生物信息学数据管理、处理、分析、自动化机器学习与生物标志物发现流程。
 
 ## Claude Science 兼容与模型路由
 
