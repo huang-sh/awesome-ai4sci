@@ -10,6 +10,7 @@ verify details upstream before adopting a project.
 | Project | Primary surface | Runtime or model strategy | Notable focus | License |
 | --- | --- | --- | --- | --- |
 | [BrainPilot](https://github.com/NeuroAIHub/BrainPilot) | Browser workspace, CLI | Pi SDK; Anthropic, OpenAI-compatible, and Azure providers | Brain science, specialist agents, and Graph of Trace | AGPL-3.0 |
+| [Dr. Claw](https://github.com/OpenLAIR/dr-claw) | Browser workspace | Multiple agent runtimes with reusable skills and pipeline execution | Survey-to-publication research workflow | AGPL-3.0 / GPL-3.0 portions |
 | [DeepScience](https://github.com/huang-sh/DeepScience) | Web, CLI | Multi-provider Pi Agent runtime | Domain agents, project/session isolation, scientific artifacts | MIT |
 | [InternAgentS](https://github.com/qzzqzzb/OpenClaudeScience) | Web | DeepAgents and LangGraph; cloud, gateway, or local models | Remote compute approvals and scientific file workflows | MIT |
 | [Open Science](https://github.com/aipoch/open-science) | Electron desktop | Claude Code login or custom model gateway | Early-alpha notebooks, artifacts, skills, and life-science connectors | Apache-2.0 |

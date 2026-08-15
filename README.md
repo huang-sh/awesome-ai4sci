@@ -32,6 +32,8 @@ interfaces, runtimes, focus areas, and licenses, see the
 
 - [BrainPilot](https://github.com/NeuroAIHub/BrainPilot) - A human-in-the-loop, multi-agent research workspace for brain science. Its PI Agent coordinates librarian, experimentalist, engineer, writer, and auditor agents across literature review, study design, analysis, writing, and claim auditing, while Graph of Trace keeps the research process inspectable. `TypeScript` `AGPL-3.0`.
 
+- [Dr. Claw](https://github.com/OpenLAIR/dr-claw) - A local research workspace with survey, ideation, experiment, publication, and promotion stages. It supports multiple agent runtimes, reusable research skills, and sequential pipeline execution from a browser interface. `JavaScript` `AGPL-3.0 / GPL-3.0 portions`.
+
 - [DeepScience](https://github.com/huang-sh/DeepScience) - A local scientific agent built on the Pi Agent runtime. It provides Biology, Research, Physics, and Machine Learning agents; on-demand scientific resources and MCP connectors; isolated project/session workspaces; artifact previews; and web or terminal interfaces. `Python` `TypeScript` `MIT`.
 
 - [InternAgentS](https://github.com/qzzqzzb/OpenClaudeScience) - A local-first research workspace built with DeepAgents and LangGraph. It combines scientific file previews, reusable skills, MCP/SCP connectors, configurable model backends, and approval-gated Linux SSH compute. `Python` `TypeScript` `MIT`.
