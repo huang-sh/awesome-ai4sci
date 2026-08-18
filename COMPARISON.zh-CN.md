@@ -9,6 +9,7 @@ BrainPilot 于 2026-07-19 添加并检查，Motif 于 2026-07-22 添加并检查
 | 项目 | 主要界面 | 运行时或模型策略 | 主要特点 | 许可证 |
 | --- | --- | --- | --- | --- |
 | [BrainPilot](https://github.com/NeuroAIHub/BrainPilot) | 浏览器工作台、CLI | Pi SDK；Anthropic、OpenAI 兼容和 Azure Provider | 脑科学、专项 Agent 与 Graph of Trace | AGPL-3.0 |
+| [Dr. Claw](https://github.com/OpenLAIR/dr-claw) | 浏览器工作台 | 多 Agent 运行时、可复用 Skill 与流水线执行 | 从调研到出版的科研工作流 | AGPL-3.0 / 部分 GPL-3.0 |
 | [DeepScience](https://github.com/huang-sh/DeepScience) | Web、CLI | 多 Provider Pi Agent 运行时 | 领域 Agent、项目/会话隔离、科学产物 | MIT |
 | [InternAgentS](https://github.com/qzzqzzb/OpenClaudeScience) | Web | DeepAgents + LangGraph；云模型、私有网关或本地模型 | 远程计算审批与科学文件工作流 | MIT |
 | [Open Science](https://github.com/aipoch/open-science) | Electron 桌面端 | Claude Code 登录或自定义模型网关 | 早期 Alpha：Notebook、Artifact、Skill 和生命科学连接器 | Apache-2.0 |
