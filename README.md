@@ -24,65 +24,54 @@ English · [简体中文](README.zh-CN.md)
 
 ## Project index
 
-Use the sections below to browse by project type. For a side-by-side view of
-interfaces, runtimes, focus areas, and licenses, see the
-[comparison matrix](COMPARISON.md).
+Use the sections below to browse by project type. For one consolidated table
+across the open-source categories, see the [comparison matrix](COMPARISON.md).
 
 ## End-to-end research workbenches
 
-- [BrainPilot](https://github.com/NeuroAIHub/BrainPilot) - A human-in-the-loop, multi-agent research workspace for brain science. Its PI Agent coordinates librarian, experimentalist, engineer, writer, and auditor agents across literature review, study design, analysis, writing, and claim auditing, while Graph of Trace keeps the research process inspectable. `TypeScript` `AGPL-3.0`.
-
-- [Dr. Claw](https://github.com/OpenLAIR/dr-claw) - A local research workspace with survey, ideation, experiment, publication, and promotion stages. It supports multiple agent runtimes, reusable research skills, and sequential pipeline execution from a browser interface. `JavaScript` `AGPL-3.0 / GPL-3.0 portions`.
-
-- [DeepScience](https://github.com/huang-sh/DeepScience) - A local scientific agent built on the Pi Agent runtime. It provides Biology, Research, Physics, and Machine Learning agents; on-demand scientific resources and MCP connectors; isolated project/session workspaces; artifact previews; and web or terminal interfaces. `Python` `TypeScript` `MIT`.
-
-- [InternAgentS](https://github.com/qzzqzzb/OpenClaudeScience) - A local-first research workspace built with DeepAgents and LangGraph. It combines scientific file previews, reusable skills, MCP/SCP connectors, configurable model backends, and approval-gated Linux SSH compute. `Python` `TypeScript` `MIT`.
-
-- [K-Dense BYOK](https://github.com/K-Dense-AI/k-dense-byok) - A local-first browser research workspace whose Kady agent can inspect project files, run analysis code, search sources, and produce figures and reports. It bundles scientific skills, workflows, specialists, a living lab notebook, scientific file previews, multiple hosted and local model options, and optional Modal compute. `TypeScript` `MIT`.
-
-- [Open Science](https://github.com/aipoch/open-science) - An early-alpha Electron desktop workbench for macOS, Windows, and Linux. The current implementation includes the plan → execute → produce → preview loop, persistent notebooks, artifacts, file-based skills, and life-science connectors; broader multi-model routing and provenance remain roadmap items. `TypeScript` `Apache-2.0`.
-
-- [Open Science Desktop](https://github.com/ai4s-research/open-science) - A local-first Tauri workbench for macOS, Windows, and Linux. It uses a model-agnostic OpenCode runtime and bundles end-to-end research skills, notebooks, scientific viewers, MCP connectors, provenance, and local or remote reproducible runs. `TypeScript` `MIT`.
-
-- [OpenAI4S](https://github.com/PKU-YuanGroup/OpenAI4S) - A hybrid scientific agent whose structured JSON tools handle orchestration while persistent Python/R kernels handle computation. It includes a lightweight web app and CLI, bundled science skills, local sandbox adapters, low-cost provider support, and bring-your-own-compute workflows. `Python` `MIT`.
-
-- [OpenScience](https://github.com/synthetic-sciences/openscience) - A browser-based research workspace and CLI that covers literature review, hypothesis generation, coding, experiments, analysis, and writing. It supports many model providers, an extensive skills catalog, scientific database tools, plugins, MCP, and an SDK. `TypeScript` `Apache-2.0`.
-
-- [Runcell Science](https://github.com/runcell-ai/runcell-science) - A web/Electron workspace around Codex, Claude Code, and Grok agent runtimes. Its focus is keeping prompts, tool activity, notebooks, interactive artifacts, scientific connectors, project files, and worktree diffs in one inspectable research session. `TypeScript` `Apache-2.0`.
-
-- [Wisp Science](https://github.com/xuzhougeng/wisp-science) - A Rust-first, local desktop copilot and headless CLI. It supports OpenAI-compatible and Anthropic models, ACP agents, persistent Python/R REPLs, reusable `SKILL.md` workflows, encrypted project sync, and bundled MCP access to biological databases. `Rust` `Apache-2.0`.
+| Project | Primary surface | Runtime or model strategy | Notable focus | License |
+| --- | --- | --- | --- | --- |
+| [BrainPilot](https://github.com/NeuroAIHub/BrainPilot) | Browser workspace, CLI | Pi SDK; Anthropic, OpenAI-compatible, and Azure providers | Brain science, specialist agents, and Graph of Trace | AGPL-3.0 |
+| [Dr. Claw](https://github.com/OpenLAIR/dr-claw) | Browser workspace | Multiple agent runtimes with reusable skills and pipeline execution | Survey-to-publication research workflow | AGPL-3.0 / GPL-3.0 portions |
+| [DeepScience](https://github.com/huang-sh/DeepScience) | Web, CLI | Multi-provider Pi Agent runtime | Domain agents, project/session isolation, scientific artifacts | MIT |
+| [InternAgentS](https://github.com/qzzqzzb/OpenClaudeScience) | Web | DeepAgents and LangGraph; cloud, gateway, or local models | Remote compute approvals and scientific file workflows | MIT |
+| [K-Dense BYOK](https://github.com/K-Dense-AI/k-dense-byok) | Local browser workspace | Hosted providers, subscription OAuth, and local OpenAI-compatible models | Scientific skills, lab notebook, file previews, and optional cloud compute | MIT |
+| [Open Science](https://github.com/aipoch/open-science) | Electron desktop | Claude Code login or custom model gateway | Early-alpha notebooks, artifacts, skills, and life-science connectors | Apache-2.0 |
+| [Open Science Desktop](https://github.com/ai4s-research/open-science) | Tauri desktop | Model-agnostic OpenCode runtime | End-to-end skills, provenance, notebooks, and reproducible runs | MIT |
+| [OpenAI4S](https://github.com/PKU-YuanGroup/OpenAI4S) | Web, CLI | Hybrid JSON tools plus persistent Python/R kernels | Low-cost providers, sandboxed execution, BYOC compute | MIT |
+| [OpenScience](https://github.com/synthetic-sciences/openscience) | Browser workspace, CLI | Multi-provider and open-weight models | Full research loop, large skill library, scientific databases | Apache-2.0 |
+| [Runcell Science](https://github.com/runcell-ai/runcell-science) | Web, Electron desktop | Codex, Claude Code, and Grok runtimes | Interactive artifacts, notebooks, and worktree diffs | Apache-2.0 |
+| [Wisp Science](https://github.com/xuzhougeng/wisp-science) | Tauri desktop, CLI | OpenAI-compatible, Anthropic, and ACP agents | Rust stack, persistent Python/R, biological database MCPs | Apache-2.0 |
 
 ## Domain, platform, and engineering-focused projects
 
-- [Claude Science for Windows](https://github.com/JWM0203/Claude-Science-for-win) - A Windows-oriented Claude Code orchestration kit with coordinator, specialist, and reviewer agents; public scientific database connectors; Python environments; and hash-based provenance records. The repository did not contain a license file when checked. `Python` `No license file`.
-
-- [Motif](https://github.com/jvogan/motif) - An AI-native molecular biology workbench for Claude Science. It packages a local MCP App, plugin, skill, and self-contained HTML workspace for editing DNA, RNA, and protein records and reviewing maps, digests, primers/PCR, assembly workflows, alignments, Sanger traces, ORFs, and CRISPR guide candidates. `TypeScript` `MIT`.
-
-- [Open Engineer](https://github.com/svd-ai-lab/open-engineer) - A Windows x64 engineering workbench based on OpenCode. It packages scientific literature and document workflows alongside skills for CAE/CAD and simulation tools such as COMSOL, Abaqus, Ansys, MATLAB, and others. `TypeScript` `MIT`.
-
-- [ScholarCopilot](https://github.com/TIGER-AI-Lab/ScholarCopilot) - A Gradio-based academic writing assistant that provides context-aware text completion and retrieves citation suggestions from an arXiv corpus through a unified generation and retrieval model. The repository includes local demo setup and corpus-indexing utilities. `Python` `MIT`.
+| Project | Primary surface | Runtime or model strategy | Notable focus | License |
+| --- | --- | --- | --- | --- |
+| [Claude Science for Windows](https://github.com/JWM0203/Claude-Science-for-win) | Windows CLI | Claude Code orchestration | Coordinator/reviewer agents, connectors, and provenance | No license file |
+| [Motif](https://github.com/jvogan/motif) | Claude Science MCP App, standalone HTML | Local connector; no hosted backend | Molecular sequence editing and analysis | MIT |
+| [Open Engineer](https://github.com/svd-ai-lab/open-engineer) | Windows desktop | OpenCode providers | Engineering, CAE/CAD, simulation, and science skills | MIT |
+| [ScholarCopilot](https://github.com/TIGER-AI-Lab/ScholarCopilot) | Gradio web app | ScholarCopilot checkpoint with an HNSW-indexed arXiv corpus | Academic text completion and citation retrieval | MIT |
 
 ## Commercial research agent platforms
 
 These hosted products are listed separately from the open-source projects and are not included in the comparison matrix.
 
-- [SciSpace](https://scispace.com/) - A research agent for searching papers, reviewing literature, chatting with PDFs, and drafting research outputs such as text, diagrams, and presentations.
-
-- [ScienceOne](https://www.scienceone.ai/portal/) - An AI-for-science platform spanning multi-agent research, scientific computing and tool orchestration, literature and database access, experiment support, and research deliverables.
-
-- [Biomni Lab](https://biomni.phylo.bio/) - A cloud research assistant for biomedical and life-science work that can plan and execute bioinformatics analyses using specialized tools, databases, and compute resources.
-
-- [omicOS](https://omicos.cn/omicos) - A multi-agent workspace for single-cell and spatial omics analysis that turns natural-language requests into executable workflows using tools such as OmicVerse and Scanpy.
-
-- [PromptBio](https://www.promptbio.ai/) - A conversational life-science platform for orchestrating bioinformatics data management, processing, analysis, automated machine learning, and biomarker discovery.
+| Platform | Notable focus |
+| --- | --- |
+| [SciSpace](https://scispace.com/) | Paper search, literature review, PDF chat, and research-output drafting |
+| [ScienceOne](https://www.scienceone.ai/portal/) | Multi-agent research, scientific computing, tool orchestration, and experiment support |
+| [Biomni Lab](https://biomni.phylo.bio/) | Biomedical and life-science workflows using specialized tools, databases, and compute |
+| [omicOS](https://omicos.cn/omicos) | Natural-language workflows for single-cell and spatial omics analysis |
+| [PromptBio](https://www.promptbio.ai/) | Bioinformatics data management, analysis, AutoML, and biomarker discovery |
 
 ## Claude Science compatibility and model routing
 
 These tools extend or reroute an existing Claude Science installation; they are not standalone research workbenches.
 
-- [CSSwitch](https://github.com/SuperJJ007/CSSwitch) - A macOS Apple Silicon menu-bar application that runs Claude Science in an isolated local environment and routes requests to DeepSeek, Qwen, GLM, Kimi, MiniMax, OpenRouter, or compatible custom endpoints. `Rust` `MIT`.
-
-- [CSSwitch Linux](https://github.com/YuntaoOvO/CSSwitch-Linux) - A Linux, WSL, and headless port of the CSSwitch workflow with both a CLI and Tauri desktop GUI, multiple provider profiles, a local gateway, and isolated Claude Science state. `Rust` `MIT`.
+| Project | Primary surface | Runtime or model strategy | Notable focus | License |
+| --- | --- | --- | --- | --- |
+| [CSSwitch](https://github.com/SuperJJ007/CSSwitch) | macOS menu-bar app | Local Anthropic/OpenAI protocol gateway | Routes Claude Science to third-party model APIs | MIT |
+| [CSSwitch Linux](https://github.com/YuntaoOvO/CSSwitch-Linux) | Linux/WSL CLI and Tauri GUI | Local protocol gateway and sandbox | Native Linux/WSL port of the CSSwitch workflow | MIT |
 
 ## Contributing
 
