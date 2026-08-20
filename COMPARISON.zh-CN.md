@@ -3,8 +3,9 @@
 [English](COMPARISON.md)
 
 本表用于快速索引，不代表项目排名。已有条目于 2026-07-15 对照上游仓库检查；
-BrainPilot 于 2026-07-19 添加并检查，Motif 于 2026-07-22 添加并检查。功能变化
-很快，采用前请以各项目最新文档为准。
+BrainPilot 于 2026-07-19 添加并检查，Motif 于 2026-07-22 添加并检查，
+K-Dense BYOK 于 2026-08-20 添加并检查。功能变化很快，采用前请以各项目
+最新文档为准。
 
 | 项目 | 主要界面 | 运行时或模型策略 | 主要特点 | 许可证 |
 | --- | --- | --- | --- | --- |
@@ -12,6 +13,7 @@ BrainPilot 于 2026-07-19 添加并检查，Motif 于 2026-07-22 添加并检查
 | [Dr. Claw](https://github.com/OpenLAIR/dr-claw) | 浏览器工作台 | 多 Agent 运行时、可复用 Skill 与流水线执行 | 从调研到出版的科研工作流 | AGPL-3.0 / 部分 GPL-3.0 |
 | [DeepScience](https://github.com/huang-sh/DeepScience) | Web、CLI | 多 Provider Pi Agent 运行时 | 领域 Agent、项目/会话隔离、科学产物 | MIT |
 | [InternAgentS](https://github.com/qzzqzzb/OpenClaudeScience) | Web | DeepAgents + LangGraph；云模型、私有网关或本地模型 | 远程计算审批与科学文件工作流 | MIT |
+| [K-Dense BYOK](https://github.com/K-Dense-AI/k-dense-byok) | 本地浏览器工作台 | 托管 Provider、订阅 OAuth 与本地 OpenAI 兼容模型 | 科学 Skill、实验记录本、文件预览与可选云计算 | MIT |
 | [Open Science](https://github.com/aipoch/open-science) | Electron 桌面端 | Claude Code 登录或自定义模型网关 | 早期 Alpha：Notebook、Artifact、Skill 和生命科学连接器 | Apache-2.0 |
 | [Open Science Desktop](https://github.com/ai4s-research/open-science) | Tauri 桌面端 | 基于 OpenCode 的模型无关运行时 | 端到端 Skill、溯源、Notebook 与可复现运行 | MIT |
 | [OpenAI4S](https://github.com/PKU-YuanGroup/OpenAI4S) | Web、CLI | JSON 工具 + 持久 Python/R Kernel | 低成本模型、沙箱执行、BYOC 计算 | MIT |

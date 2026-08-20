@@ -37,6 +37,8 @@
 
 - **[InternAgentS](https://github.com/qzzqzzb/OpenClaudeScience)** — 基于 DeepAgents 与 LangGraph 的本地优先科研工作台，整合科学文件预览、可复用 Skill、MCP/SCP Connector、可配置模型后端和需要人工审批的 Linux SSH 计算。`Python` `TypeScript` `MIT`
 
+- **[K-Dense BYOK](https://github.com/K-Dense-AI/k-dense-byok)** — 本地优先的浏览器科研工作台，Kady Agent 可检查项目文件、运行分析代码、检索资料并产出图表和报告。内置科学 Skill、工作流、专项 Agent、实验记录本、科学文件预览、多种托管或本地模型选项及可选 Modal 计算。`TypeScript` `MIT`
+
 - **[Open Science](https://github.com/aipoch/open-science)** — 面向 macOS、Windows 和 Linux 的早期 Alpha Electron 桌面工作台。当前已实现“计划 → 执行 → 产出 → 预览”闭环、持久 Notebook、Artifact、文件式 Skill 和生命科学 Connector；更广泛的多模型路由与溯源仍在路线图中。`TypeScript` `Apache-2.0`
 
 - **[Open Science Desktop](https://github.com/ai4s-research/open-science)** — 面向 macOS、Windows 和 Linux 的本地优先 Tauri 工作台，使用基于 OpenCode 的模型无关运行时，内置端到端科研 Skill、Notebook、科学文件查看器、MCP Connector、溯源以及本地/远程可复现运行。`TypeScript` `MIT`

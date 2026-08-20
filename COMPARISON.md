@@ -4,8 +4,8 @@
 
 This matrix is a compact index, not a ranking. Existing entries were checked
 against their upstream repositories on 2026-07-15; BrainPilot was added and
-checked on 2026-07-19, and Motif on 2026-07-22. Features can change quickly, so
-verify details upstream before adopting a project.
+checked on 2026-07-19, Motif on 2026-07-22, and K-Dense BYOK on 2026-08-20.
+Features can change quickly, so verify details upstream before adopting a project.
 
 | Project | Primary surface | Runtime or model strategy | Notable focus | License |
 | --- | --- | --- | --- | --- |
@@ -13,6 +13,7 @@ verify details upstream before adopting a project.
 | [Dr. Claw](https://github.com/OpenLAIR/dr-claw) | Browser workspace | Multiple agent runtimes with reusable skills and pipeline execution | Survey-to-publication research workflow | AGPL-3.0 / GPL-3.0 portions |
 | [DeepScience](https://github.com/huang-sh/DeepScience) | Web, CLI | Multi-provider Pi Agent runtime | Domain agents, project/session isolation, scientific artifacts | MIT |
 | [InternAgentS](https://github.com/qzzqzzb/OpenClaudeScience) | Web | DeepAgents and LangGraph; cloud, gateway, or local models | Remote compute approvals and scientific file workflows | MIT |
+| [K-Dense BYOK](https://github.com/K-Dense-AI/k-dense-byok) | Local browser workspace | Hosted providers, subscription OAuth, and local OpenAI-compatible models | Scientific skills, lab notebook, file previews, and optional cloud compute | MIT |
 | [Open Science](https://github.com/aipoch/open-science) | Electron desktop | Claude Code login or custom model gateway | Early-alpha notebooks, artifacts, skills, and life-science connectors | Apache-2.0 |
 | [Open Science Desktop](https://github.com/ai4s-research/open-science) | Tauri desktop | Model-agnostic OpenCode runtime | End-to-end skills, provenance, notebooks, and reproducible runs | MIT |
 | [OpenAI4S](https://github.com/PKU-YuanGroup/OpenAI4S) | Web, CLI | Hybrid JSON tools plus persistent Python/R kernels | Low-cost providers, sandboxed execution, BYOC compute | MIT |

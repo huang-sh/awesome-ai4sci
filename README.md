@@ -38,6 +38,8 @@ interfaces, runtimes, focus areas, and licenses, see the
 
 - [InternAgentS](https://github.com/qzzqzzb/OpenClaudeScience) - A local-first research workspace built with DeepAgents and LangGraph. It combines scientific file previews, reusable skills, MCP/SCP connectors, configurable model backends, and approval-gated Linux SSH compute. `Python` `TypeScript` `MIT`.
 
+- [K-Dense BYOK](https://github.com/K-Dense-AI/k-dense-byok) - A local-first browser research workspace whose Kady agent can inspect project files, run analysis code, search sources, and produce figures and reports. It bundles scientific skills, workflows, specialists, a living lab notebook, scientific file previews, multiple hosted and local model options, and optional Modal compute. `TypeScript` `MIT`.
+
 - [Open Science](https://github.com/aipoch/open-science) - An early-alpha Electron desktop workbench for macOS, Windows, and Linux. The current implementation includes the plan → execute → produce → preview loop, persistent notebooks, artifacts, file-based skills, and life-science connectors; broader multi-model routing and provenance remain roadmap items. `TypeScript` `Apache-2.0`.
 
 - [Open Science Desktop](https://github.com/ai4s-research/open-science) - A local-first Tauri workbench for macOS, Windows, and Linux. It uses a model-agnostic OpenCode runtime and bundles end-to-end research skills, notebooks, scientific viewers, MCP connectors, provenance, and local or remote reproducible runs. `TypeScript` `MIT`.
