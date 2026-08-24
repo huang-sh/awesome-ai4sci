@@ -48,6 +48,7 @@ across the open-source categories, see the [comparison matrix](COMPARISON.md).
 | Project | Primary surface | Runtime or model strategy | Notable focus | License |
 | --- | --- | --- | --- | --- |
 | [Claude Science for Windows](https://github.com/JWM0203/Claude-Science-for-win) | Windows CLI | Claude Code orchestration | Coordinator/reviewer agents, connectors, and provenance | No license file |
+| [Lune Research](https://github.com/RetrogradeLabs/lune-mcp-server) | Hosted MCP, npm stdio | Model-agnostic MCP clients; OAuth or PAT | Peer-reviewed computer-science full text, citation graphs, and quote-backed claim checks | MIT |
 | [Motif](https://github.com/jvogan/motif) | Claude Science MCP App, standalone HTML | Local connector; no hosted backend | Molecular sequence editing and analysis | MIT |
 | [Open Engineer](https://github.com/svd-ai-lab/open-engineer) | Windows desktop | OpenCode providers | Engineering, CAE/CAD, simulation, and science skills | MIT |
 | [ScholarCopilot](https://github.com/TIGER-AI-Lab/ScholarCopilot) | Gradio web app | ScholarCopilot checkpoint with an HNSW-indexed arXiv corpus | Academic text completion and citation retrieval | MIT |

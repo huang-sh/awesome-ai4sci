@@ -4,7 +4,8 @@
 
 This matrix is a compact index, not a ranking. Existing entries were checked
 against their upstream repositories on 2026-07-15; BrainPilot was added and
-checked on 2026-07-19, Motif on 2026-07-22, and K-Dense BYOK on 2026-08-20.
+checked on 2026-07-19, Motif on 2026-07-22, K-Dense BYOK on 2026-08-20, and
+Lune Research on 2026-08-24.
 Features can change quickly, so verify details upstream before adopting a project.
 
 | Project | Primary surface | Runtime or model strategy | Notable focus | License |
@@ -21,6 +22,7 @@ Features can change quickly, so verify details upstream before adopting a projec
 | [Runcell Science](https://github.com/runcell-ai/runcell-science) | Web, Electron desktop | Codex, Claude Code, and Grok runtimes | Interactive artifacts, notebooks, and worktree diffs | Apache-2.0 |
 | [Wisp Science](https://github.com/xuzhougeng/wisp-science) | Tauri desktop, CLI | OpenAI-compatible, Anthropic, and ACP agents | Rust stack, persistent Python/R, biological database MCPs | Apache-2.0 |
 | [Claude Science for Windows](https://github.com/JWM0203/Claude-Science-for-win) | Windows CLI | Claude Code orchestration | Coordinator/reviewer agents, connectors, and provenance | No license file |
+| [Lune Research](https://github.com/RetrogradeLabs/lune-mcp-server) | Hosted MCP, npm stdio | Model-agnostic MCP clients; OAuth or PAT | Peer-reviewed computer-science full text, citation graphs, and quote-backed claim checks | MIT |
 | [Motif](https://github.com/jvogan/motif) | Claude Science MCP App, standalone HTML | Local connector; no hosted backend | Molecular sequence editing and analysis | MIT |
 | [Open Engineer](https://github.com/svd-ai-lab/open-engineer) | Windows desktop | OpenCode providers | Engineering, CAE/CAD, simulation, and science skills | MIT |
 | [ScholarCopilot](https://github.com/TIGER-AI-Lab/ScholarCopilot) | Gradio web app | ScholarCopilot checkpoint with an HNSW-indexed arXiv corpus | Academic text completion and citation retrieval | MIT |
