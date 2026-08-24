@@ -4,8 +4,8 @@
 
 本表用于快速索引，不代表项目排名。已有条目于 2026-07-15 对照上游仓库检查；
 BrainPilot 于 2026-07-19 添加并检查，Motif 于 2026-07-22 添加并检查，
-K-Dense BYOK 于 2026-08-20 添加并检查。功能变化很快，采用前请以各项目
-最新文档为准。
+K-Dense BYOK 于 2026-08-20 添加并检查，Lune Research 于 2026-08-24
+添加并检查。功能变化很快，采用前请以各项目最新文档为准。
 
 | 项目 | 主要界面 | 运行时或模型策略 | 主要特点 | 许可证 |
 | --- | --- | --- | --- | --- |
@@ -21,6 +21,7 @@ K-Dense BYOK 于 2026-08-20 添加并检查。功能变化很快，采用前请�
 | [Runcell Science](https://github.com/runcell-ai/runcell-science) | Web、Electron 桌面端 | Codex、Claude Code、Grok 运行时 | 交互式 Artifact、Notebook 与 Worktree Diff | Apache-2.0 |
 | [Wisp Science](https://github.com/xuzhougeng/wisp-science) | Tauri 桌面端、CLI | OpenAI 兼容、Anthropic 与 ACP Agent | Rust 技术栈、持久 Python/R、生物数据库 MCP | Apache-2.0 |
 | [Claude Science for Windows](https://github.com/JWM0203/Claude-Science-for-win) | Windows CLI | Claude Code 编排 | Coordinator/Reviewer Agent、连接器与溯源 | 未提供许可证文件 |
+| [Lune Research](https://github.com/RetrogradeLabs/lune-mcp-server) | 托管 MCP、npm stdio | 模型无关 MCP 客户端；OAuth 或 PAT | 同行评审计算机论文全文、引文图谱与原文引述式论断核验 | MIT |
 | [Motif](https://github.com/jvogan/motif) | Claude Science MCP App、自包含 HTML | 本地 Connector；无托管后端 | 分子序列编辑与分析 | MIT |
 | [Open Engineer](https://github.com/svd-ai-lab/open-engineer) | Windows 桌面端 | OpenCode Providers | 工程、CAE/CAD、仿真与科学 Skill | MIT |
 | [ScholarCopilot](https://github.com/TIGER-AI-Lab/ScholarCopilot) | Gradio Web 应用 | ScholarCopilot Checkpoint + HNSW 索引的 arXiv 语料库 | 学术文本续写与引用检索 | MIT |
