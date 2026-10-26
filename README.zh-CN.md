@@ -47,6 +47,7 @@
 
 | 项目 | 主要界面 | 运行时或模型策略 | 主要特点 | 许可证 |
 | --- | --- | --- | --- | --- |
+| [AgentFEM](https://github.com/haoming-luo/agentfem) | Python、CLI、可选 MCP | FEniCSx/PETSc 数值计算；通过独立 MCP 适配器连接兼容的 AI 助手 | 可读的有限元模型、仿真运行与结果核验 | Apache-2.0 |
 | [Claude Science for Windows](https://github.com/JWM0203/Claude-Science-for-win) | Windows CLI | Claude Code 编排 | Coordinator/Reviewer Agent、连接器与溯源 | 未提供许可证文件 |
 | [Motif](https://github.com/jvogan/motif) | Claude Science MCP App、自包含 HTML | 本地 Connector；无托管后端 | 分子序列编辑与分析 | MIT |
 | [Open Engineer](https://github.com/svd-ai-lab/open-engineer) | Windows 桌面端 | OpenCode Providers | 工程、CAE/CAD、仿真与科学 Skill | MIT |

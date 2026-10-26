@@ -20,6 +20,7 @@ Features can change quickly, so verify details upstream before adopting a projec
 | [OpenScience](https://github.com/synthetic-sciences/openscience) | Browser workspace, CLI | Multi-provider and open-weight models | Full research loop, large skill library, scientific databases | Apache-2.0 |
 | [Runcell Science](https://github.com/runcell-ai/runcell-science) | Web, Electron desktop | Codex, Claude Code, and Grok runtimes | Interactive artifacts, notebooks, and worktree diffs | Apache-2.0 |
 | [Wisp Science](https://github.com/xuzhougeng/wisp-science) | Tauri desktop, CLI | OpenAI-compatible, Anthropic, and ACP agents | Rust stack, persistent Python/R, biological database MCPs | Apache-2.0 |
+| [AgentFEM](https://github.com/haoming-luo/agentfem) | Python, CLI, optional MCP | FEniCSx/PETSc numerical runtime; compatible agents through a separate MCP adapter | Readable finite-element models, simulation runs, and result verification | Apache-2.0 |
 | [Claude Science for Windows](https://github.com/JWM0203/Claude-Science-for-win) | Windows CLI | Claude Code orchestration | Coordinator/reviewer agents, connectors, and provenance | No license file |
 | [Motif](https://github.com/jvogan/motif) | Claude Science MCP App, standalone HTML | Local connector; no hosted backend | Molecular sequence editing and analysis | MIT |
 | [Open Engineer](https://github.com/svd-ai-lab/open-engineer) | Windows desktop | OpenCode providers | Engineering, CAE/CAD, simulation, and science skills | MIT |

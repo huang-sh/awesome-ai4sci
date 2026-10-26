@@ -47,6 +47,7 @@ across the open-source categories, see the [comparison matrix](COMPARISON.md).
 
 | Project | Primary surface | Runtime or model strategy | Notable focus | License |
 | --- | --- | --- | --- | --- |
+| [AgentFEM](https://github.com/haoming-luo/agentfem) | Python, CLI, optional MCP | FEniCSx/PETSc numerical runtime; compatible agents through a separate MCP adapter | Readable finite-element models, simulation runs, and result verification | Apache-2.0 |
 | [Claude Science for Windows](https://github.com/JWM0203/Claude-Science-for-win) | Windows CLI | Claude Code orchestration | Coordinator/reviewer agents, connectors, and provenance | No license file |
 | [Motif](https://github.com/jvogan/motif) | Claude Science MCP App, standalone HTML | Local connector; no hosted backend | Molecular sequence editing and analysis | MIT |
 | [Open Engineer](https://github.com/svd-ai-lab/open-engineer) | Windows desktop | OpenCode providers | Engineering, CAE/CAD, simulation, and science skills | MIT |

@@ -20,6 +20,7 @@ K-Dense BYOK 于 2026-08-20 添加并检查。功能变化很快，采用前请�
 | [OpenScience](https://github.com/synthetic-sciences/openscience) | 浏览器工作台、CLI | 多 Provider 与开源权重模型 | 完整科研闭环、大型 Skill 库、科学数据库 | Apache-2.0 |
 | [Runcell Science](https://github.com/runcell-ai/runcell-science) | Web、Electron 桌面端 | Codex、Claude Code、Grok 运行时 | 交互式 Artifact、Notebook 与 Worktree Diff | Apache-2.0 |
 | [Wisp Science](https://github.com/xuzhougeng/wisp-science) | Tauri 桌面端、CLI | OpenAI 兼容、Anthropic 与 ACP Agent | Rust 技术栈、持久 Python/R、生物数据库 MCP | Apache-2.0 |
+| [AgentFEM](https://github.com/haoming-luo/agentfem) | Python、CLI、可选 MCP | FEniCSx/PETSc 数值计算；通过独立 MCP 适配器连接兼容的 AI 助手 | 可读的有限元模型、仿真运行与结果核验 | Apache-2.0 |
 | [Claude Science for Windows](https://github.com/JWM0203/Claude-Science-for-win) | Windows CLI | Claude Code 编排 | Coordinator/Reviewer Agent、连接器与溯源 | 未提供许可证文件 |
 | [Motif](https://github.com/jvogan/motif) | Claude Science MCP App、自包含 HTML | 本地 Connector；无托管后端 | 分子序列编辑与分析 | MIT |
 | [Open Engineer](https://github.com/svd-ai-lab/open-engineer) | Windows 桌面端 | OpenCode Providers | 工程、CAE/CAD、仿真与科学 Skill | MIT |
